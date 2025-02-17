@@ -1,5 +1,5 @@
 {% set name = "logtalk-jupyter-kernel" %}
-{% set version = "0.16.0" %}
+{% set version = "0.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9326cd0e2774de58f6eb89e392804256a553557cb26c23932ca95df542b22fcd
+  sha256: b39603a78ef379804104fd450b93427bbf3225fff3c6d640240558840b9c367d
 
 build:
   noarch: python
