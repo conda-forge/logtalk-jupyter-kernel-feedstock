@@ -24,6 +24,7 @@ requirements:
     - jupyter_client
     - ipython
     - ipykernel
+    - jupytext
     - python-graphviz
     - beautifulsoup4
     - matplotlib
